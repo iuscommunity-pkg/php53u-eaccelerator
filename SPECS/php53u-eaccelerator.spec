@@ -15,7 +15,7 @@ Name: %{name}
 Version: 0.9.6.1
 
 #Release: 0.2%%{?svn:.svn%%{svn}}%%{?dist}
-Release: 25.ius%{?dist}
+Release: 26.ius%{?dist}
 
 # The eaccelerator module itself is GPLv2+
 # The PHP control panel is under the Zend license (control.php and dasm.php)
@@ -144,6 +144,9 @@ fi
 
 
 %changelog
+* Fri Apr 12 2013 Ben Harper <ben.harper@rackspace.com> - 0.9.6.1-26.ius
+- Rebuilding against PHP 5.3.24-1
+
 * Fri Mar 15 2013 Ben Harper <ben.harper@rackspace.com> - 0.9.6.1-25.ius
 - Rebuilding against PHP 5.3.23-1
 
